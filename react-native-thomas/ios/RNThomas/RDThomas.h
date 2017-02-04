@@ -6,10 +6,10 @@
 //  Copyright © 2017年 org.richard. All rights reserved.
 //
 
-#import "RCTBridgeModule.h"
 #import "RDMacros.h"
 
 #import <Foundation/Foundation.h>
+#import <React/RCTBridgeModule.h>
 
 /// open wifi page    (无线网络)
 RD_EXPORT NSString *const RDSysPageWifi;
