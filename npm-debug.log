@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/lihui/react-native-thomas',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/lihui/.npm/react-native-thomas/0.0.1/package.tgz not in flight; packing
+9 info lifecycle react-native-thomas@0.0.1~prepublish: react-native-thomas@0.0.1
+10 silly lifecycle react-native-thomas@0.0.1~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/Users/lihui/.npm/react-native-thomas/0.0.1/package.tgz',
+11 verbose tar pack   '/Users/lihui/react-native-thomas' ]
+12 verbose tarball /Users/lihui/.npm/react-native-thomas/0.0.1/package.tgz
+13 verbose folder /Users/lihui/react-native-thomas
+14 verbose addLocalTarball adding from inside cache /Users/lihui/.npm/react-native-thomas/0.0.1/package.tgz
+15 silly cache afterAdd react-native-thomas@0.0.1
+16 verbose afterAdd /Users/lihui/.npm/react-native-thomas/0.0.1/package/package.json not in flight; writing
+17 verbose afterAdd /Users/lihui/.npm/react-native-thomas/0.0.1/package/package.json written
+18 silly publish { name: 'react-native-thomas',
+18 silly publish   version: '0.0.1',
+18 silly publish   private: true,
+18 silly publish   scripts:
+18 silly publish    { start: 'node node_modules/react-native/local-cli/cli.js start',
+18 silly publish      test: 'jest' },
+18 silly publish   dependencies: { react: '15.4.2', 'react-native': '^0.41.0' },
+18 silly publish   devDependencies:
+18 silly publish    { 'babel-jest': '18.0.0',
+18 silly publish      'babel-preset-react-native': '1.9.1',
+18 silly publish      jest: '18.1.0',
+18 silly publish      'react-test-renderer': '15.4.2' },
+18 silly publish   jest: { preset: 'react-native' },
+18 silly publish   description: 'open sys settings page and sub pages with react-native for iOS',
+18 silly publish   main: 'index.js',
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/RichardLeeH/react-native-thomas.git' },
+18 silly publish   keywords: [ 'iOS', 'react-native', 'settings', 'page' ],
+18 silly publish   author: { name: 'RichardLeeH' },
+18 silly publish   license: 'MIT',
+18 silly publish   bugs: { url: 'https://github.com/RichardLeeH/react-native-thomas/issues' },
+18 silly publish   homepage: 'https://github.com/RichardLeeH/react-native-thomas#readme',
+18 silly publish   readme: '# react-native-thomas',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: 'f3fbb3486f682a984806f564c02f1204f6668ec2',
+18 silly publish   _id: 'react-native-thomas@0.0.1',
+18 silly publish   _shasum: '00d53d2b09e52faf6c1d45d4b8d47285255860d2',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 verbose stack Error: This package has been marked as private
+20 verbose stack Remove the 'private' field from the package.json to publish it.
+20 verbose stack     at publish_ (/usr/local/lib/node_modules/npm/lib/publish.js:100:15)
+20 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+20 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+20 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:14:28)
+20 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+20 verbose stack     at /usr/local/lib/node_modules/npm/lib/publish.js:72:5
+20 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+20 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+20 verbose stack     at /usr/local/lib/node_modules/npm/lib/cache.js:361:16
+20 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/write-file-atomic/index.js:29:15
+21 verbose cwd /Users/lihui/react-native-thomas
+22 error Darwin 16.4.0
+23 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+24 error node v5.1.0
+25 error npm  v3.3.12
+26 error This package has been marked as private
+26 error Remove the 'private' field from the package.json to publish it.
+27 error If you need help, you may report this error at:
+27 error     <https://github.com/npm/npm/issues>
+28 verbose exit [ 1, true ]
